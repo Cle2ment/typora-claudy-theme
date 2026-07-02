@@ -1,5 +1,9 @@
 # Claude-Like Theme
 
+一个以 Claude-like 阅读体验为灵感、并针对中文写作重新打磨的 Typora 主题。现提供浅色、Morandi 灰蓝、深色三个版本。
+
+Obsidian主题: [obsidian-claude-theme](https://github.com/Ziy1-Tan/obsidian-claude-theme) by [Ziy1-Tan](https://github.com/Ziy1-Tan)
+
 > [English Version Below](#english-version)
 
 ![light](https://raw.githubusercontent.com/Muyiiiii/Typora_Claude-Like_Theme/master/image/2026-03-11-claude-like-theme/light.png)
@@ -168,6 +172,8 @@ Claude 是 Anthropic, PBC 的商标。本项目与 Anthropic 无任何关联，�
 # Claude-like Theme
 
 A Typora theme inspired by a Claude-like reading experience, refined for Chinese writing and technical Markdown workflows. It ships in three variants: light, a Morandi gray-blue grey, and dark.
+
+An Obsidian theme: [obsidian-claude-theme](https://github.com/Ziy1-Tan/obsidian-claude-theme) by [Ziy1-Tan](https://github.com/Ziy1-Tan)
 
 ## Installation
 

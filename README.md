@@ -1,6 +1,6 @@
 # Claudy Theme
 
-一个以 Claude-like 阅读体验为灵感、并针对中文写作重新打磨的 Typora 主题。现提供浅色、深色两个版本。
+一个以 Claude 的阅读体验为灵感、并针对中文写作重新打磨的 Typora 主题。现提供浅色、深色两个版本。
 
 > [English Version Below](#english-version)
 
@@ -8,7 +8,7 @@
 
 ![dark](image/2026-03-11-claudy-theme/dark.png)
 
-一个以 Claude-like 阅读体验为灵感、并针对中文写作重新打磨的 Typora 主题。现提供浅色、深色两个版本。
+一个以 Claude 的阅读体验为灵感、并针对中文写作重新打磨的 Typora 主题。现提供浅色、深色两个版本。
 
 ## 安装方式
 
@@ -28,7 +28,7 @@
 
 > **推荐设置（Windows）**：进入 `偏好设置 -> 外观`，将**窗口样式**设为**一体化**（重启 Typora 后生效），主题在 Windows 一体化模式下显示效果最佳。
 
-它不是简单地把网页样式搬进 Typora，而是保留了 Claude-like 那种安静、克制、长文友好的阅读气质，同时针对中文内容、表格、代码块、导出效果做了重新调校。
+它不是简单地把网页样式搬进 Typora，而是保留了 Claude 那种安静、克制、长文友好的阅读气质，同时针对中文内容、表格、代码块、导出效果做了重新调校。
 
 ## 设计目标
 
@@ -39,7 +39,7 @@
 
 ## 主题特点
 
-### 1. Claude-like 风格的整体阅读气质
+### 1. Claude 风格的整体阅读气质
 
 主题整体采用低饱和、轻对比、较宽松的留白节奏，适合：
 
@@ -155,7 +155,7 @@ Claudy Theme 的核心不是“看起来像某个网页”，而是把那种安�
 
 ## 商标说明
 
-Claude 是 Anthropic, PBC 的商标。本项目与 Anthropic 无任何关联，也未获其官方授权或认可。主题名称中的「Claude-like」仅指其视觉气质上的灵感来源，不代表任何官方产品或品牌关系。
+Claude 是 Anthropic, PBC 的商标。本项目与 Anthropic 无任何关联，也未获其官方授权或认可。主题名称「Claudy」源于 Claude 的视觉气质，仅指风格上的灵感来源，不代表任何官方产品或品牌关系。
 
 ---
 
@@ -163,7 +163,7 @@ Claude 是 Anthropic, PBC 的商标。本项目与 Anthropic 无任何关联，�
 
 # Claudy Theme
 
-A Typora theme inspired by a Claude-like reading experience, refined for Chinese writing and technical Markdown workflows. It ships in two variants: light and dark.
+A Typora theme inspired by Claude's reading experience, refined for Chinese writing and technical Markdown workflows. It ships in two variants: light and dark.
 
 ## Installation
 
@@ -183,7 +183,7 @@ You can also download the latest theme files directly from the GitHub Releases p
 
 > **Recommended setting (Windows)**: Go to `Preferences -> Appearance` and set **Window Style** to **Unibody** (restart Typora to apply). The theme is optimized for Unibody mode on Windows.
 
-It is not a direct clone of a webpage. Instead, it keeps the calm, restrained, long-form reading atmosphere associated with a Claude-like style, while reworking typography, tables, code blocks, and export behavior for practical Markdown use.
+It is not a direct clone of a webpage. Instead, it keeps the calm, restrained, long-form reading atmosphere associated with Claude's style, while reworking typography, tables, code blocks, and export behavior for practical Markdown use.
 
 ## Design Goals
 
@@ -194,7 +194,7 @@ It is not a direct clone of a webpage. Instead, it keeps the calm, restrained, l
 
 ## Highlights
 
-### 1. A calm Claude-like reading atmosphere
+### 1. A calm Claude-style reading atmosphere
 
 The theme uses low-saturation colors, soft contrast, and generous spacing. It works especially well for:
 
@@ -312,7 +312,7 @@ Claude is a trademark of Anthropic, PBC. This project is not affiliated with, en
 
 ## Trademark Notice
 
-Claude is a trademark of Anthropic, PBC. This project is not affiliated with, endorsed by, or sponsored by Anthropic. The name "Claude-like" refers to the visual atmosphere that inspired this theme, not to any official product or brand affiliation.
+Claude is a trademark of Anthropic, PBC. This project is not affiliated with, endorsed by, or sponsored by Anthropic. The name "Claudy" derives from the visual atmosphere of Claude that inspired this theme, not from any official product or brand affiliation.
 
 ## Star History
 

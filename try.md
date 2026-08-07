@@ -1,15 +1,15 @@
 ---
 layout: theme
-title: Claude-Like Theme
+title: Claudy Theme
 category: theme
-homepage: https://github.com/Muyiiiii/Typora_Claude-Like_Theme
+homepage: https://github.com/Cle2ment/typora-claudy-theme
 built-in: false
-author: Muyiiiii
+author: Cle2ment
 thumbnail: paper.png
 typora-root-url: ../../
 ---
 
-# Claude-Like Theme
+# Claudy Theme
 
 这是一个适合长文阅读的 Typora 主题。
 
@@ -35,7 +35,7 @@ typora-root-url: ../../
 
 ## 行内代码
 
-比如 `print()`、`Hello, World!`、`claude.css` 这类内容会有单独样式。
+比如 `print()`、`Hello, World!`、`claudy.css` 这类内容会有单独样式。
 
 ## 代码块示例
 

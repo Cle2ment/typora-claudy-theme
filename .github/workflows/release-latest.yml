@@ -31,22 +31,21 @@ jobs:
           fi
 
       - name: Build zip package
-        run: zip -j Typora_Claude-Like_Theme.zip claude-like.css claude-like-grey.css claude-like-dark.css
+        run: zip -j Typora_Claudy_Theme.zip claudy.css claudy-dark.css
 
       - name: Publish release
         uses: ncipollo/release-action@v1
         with:
           artifactErrorsFailBuild: true
           allowUpdates: true
-          artifacts: "claude-like.css,claude-like-grey.css,claude-like-dark.css,Typora_Claude-Like_Theme.zip"
+          artifacts: "claudy.css,claudy-dark.css,Typora_Claudy_Theme.zip"
           body: |
             Release for `${{ github.ref_name }}`.
 
             Included files:
-            - `claude-like.css`
-            - `claude-like-grey.css`
-            - `claude-like-dark.css`
-            - `Typora_Claude-Like_Theme.zip`
+            - `claudy.css`
+            - `claudy-dark.css`
+            - `Typora_Claudy_Theme.zip`
           generateReleaseNotes: true
           makeLatest: ${{ startsWith(github.ref_name, 'v') }}
           name: ${{ steps.relname.outputs.name }}

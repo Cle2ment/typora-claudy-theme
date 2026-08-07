@@ -16,9 +16,9 @@
     --quote-border-color: #d8cbbb;
     --quote-text-color: #625950;
     --table-alt-color: #f8f3ec;
-    --font-body: "Anthropic Serif", Georgia, "Times New Roman", "Songti SC", "Noto Serif CJK SC", "Source Han Serif SC", "PingFang SC", "Hiragino Sans GB", serif;
+    --font-body: Garamond, Georgia, "Times New Roman", "Songti SC", "Noto Serif CJK SC", "Source Han Serif SC", "PingFang SC", "Hiragino Sans GB", serif;
     --font-ui: "PingFang SC", "Hiragino Sans GB", "Noto Sans CJK SC", "Source Han Sans SC", "Microsoft YaHei", "Segoe UI", sans-serif;
-    --font-mono: Menlo, Monaco, "SF Mono", Consolas, "Sarasa Mono SC", "Cascadia Code", monospace;
+    --font-mono: "Maple Mono NF CN", Menlo, Monaco, "SF Mono", Consolas, "Sarasa Mono SC", "Cascadia Code", monospace;
     --table-border-strong-color: #cbb9a6;
     --table-row-border-color: rgba(114, 105, 94, 0.26);
     --table-hover-color: rgba(188, 106, 58, 0.05);

@@ -17,8 +17,8 @@
     --quote-bg-color: #f3ede5;
     --quote-border-color: #d8cbbb;
     --quote-text-color: #625950;
-    --font-body: "梦源宋体 CN", "Source Han Serif SC", "Source Han Serif CN", "Noto Serif CJK SC", "Songti SC", "PingFang SC", "Hiragino Sans GB", "Source Serif 4", Georgia, "Times New Roman", serif;
-    --font-heading: "梦源黑体 CN", "Source Han Sans SC", "Source Han Sans CN", "Noto Sans CJK SC", "PingFang SC", "IBM Plex Sans", "Microsoft YaHei", sans-serif;
+    --font-body: "LXGW WenKai", "LXGW WenKai Screen", "霞鹜文楷", "梦源宋体 CN", "Source Han Serif SC", "Source Han Serif CN", "Noto Serif CJK SC", "Songti SC", "PingFang SC", "Hiragino Sans GB", "Source Serif 4", Georgia, "Times New Roman", serif;
+    --font-heading: "LXGW WenKai", "LXGW WenKai Screen", "霞鹜文楷", "梦源黑体 CN", "Source Han Sans SC", "Source Han Sans CN", "Noto Sans CJK SC", "PingFang SC", "IBM Plex Sans", "Microsoft YaHei", sans-serif;
     --font-ui: "PingFang SC", "Hiragino Sans GB", "Noto Sans CJK SC", "Source Han Sans SC", "IBM Plex Sans", "Microsoft YaHei", "Segoe UI", sans-serif;
     --font-mono: "Maple Mono NF CN", Menlo, Monaco, "SF Mono", Consolas, "Sarasa Mono SC", "Cascadia Code", monospace;
     --table-border-strong-color: #cbb9a6;

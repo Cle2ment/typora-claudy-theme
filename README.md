@@ -1,14 +1,12 @@
 # Claudy Theme
 
-一个以 Claude 的阅读体验为灵感、并针对中文写作重新打磨的 Typora 主题。现提供浅色、深色两个版本。
+一个以 Claude 的阅读体验为灵感、为中文长文写作深度打磨的 Typora 主题：霞鹜文楷正文 × 梦源黑体标题，暖纸色浅色与暖炭色深色双主题，功能色通过 WCAG AA 对比度校验，根字号随窗口自适应。纯 CSS、无构建、双主题同步维护。
 
 > [English Version Below](#english-version)
 
 ![light](image/2026-03-11-claudy-theme/light.png)
 
 ![dark](image/2026-03-11-claudy-theme/dark.png)
-
-一个以 Claude 的阅读体验为灵感、并针对中文写作重新打磨的 Typora 主题。现提供浅色、深色两个版本。
 
 ## 安装方式
 
@@ -39,60 +37,37 @@
 
 ## 主题特点
 
-### 1. Claude 风格的整体阅读气质
+### 1. 低疲劳的阅读配色
 
-主题整体采用低饱和、轻对比、较宽松的留白节奏，适合：
+- 浅色：暖纸色底（`#faf9f5`）搭配深暖灰正文，安静的纸张质感
+- 深色：暖炭色底（非纯黑）搭配暖白文字（非纯白），亮度压在低疲劳区间，暗环境长时间写作不刺眼
+- 链接、代码、标签等功能色逐项按 WCAG AA（≥ 4.5:1）实调校验
 
-- 技术笔记
-- 课程总结
-- 论文阅读记录
-- AI 对话整理
-- 中英文混排说明文档
+低饱和暖色系、轻对比、宽松留白，适合技术笔记、课程总结、论文阅读记录、AI 对话整理与中英混排文档。
 
-相比更“设计感驱动”的 Typora 主题，这套样式更强调稳定性、可读性和连续阅读体验。
+### 2. 为中文定制的字体系统
 
-### 2. 针对中文优化的字体方案
+- 正文：霞鹜文楷（LXGW WenKai），楷调手写感，适合长文沉浸阅读
+- 标题：梦源黑体 CN（基于思源黑体，提供 27 档真实字重），「楷体正文 × 黑体标题」层级一目了然，标题字重全部命中真实档位、无合成加粗
+- 代码：Maple Mono NF CN 等宽字体，自带中文字形，中西文严格 2:1 对齐
+- 完整回退链覆盖 Windows / macOS，未安装推荐字体时自动落到系统字体，效果依然可预测
 
-为了让中文观感更接近实际阅读材料，而不是浏览器默认排版，主题将正文、标题、强调文本、代码分别处理：
+### 3. 随窗口自适应的排版
 
-- 正文以更适合长文阅读的中文字体为主。
-- 标题和强调文本采用更清晰的字族，增强层级。
-- 代码区域使用独立的等宽字体栈，保证字符对齐与辨识度。
+- 根字号通过 CSS `clamp()` 随窗口宽度在 16–18px 平滑缩放，笔记本到 4K 一套代码适配
+- 版心与侧栏全部使用相对单位，缩放等比跟随
+- 正文 17px、行高 1.75、段距 0.95em，按中文长文节奏调校
+- 侧栏字号、字重、行距独立调校，长文件名自动换行
 
-这样的处理在中文文档里会比纯英文网页字体迁移更自然。
+### 4. 克制而完整的组件设计
 
-### 3. 统一过的表格系统
-
-表格是技术文档里最容易失控的部分，所以这套主题专门统一了：
-
-- 表头与正文的字体层级
-- 横向分隔线强弱
-- 单元格内边距
-- 中英文混排时的节奏
-- 明暗主题下的视觉一致性
-
-它适合展示：
-
-- 对比表
-- 参数表
-- 实验结果表
-- 概念说明表
-
-### 4. 更接近日常技术写作的代码样式
-
-代码部分分成两类处理：
-
-- 行内代码：更像轻量提示标签，适合突出变量名、函数名、命令名。
-- 代码块：保留独立背景、边框、语言标签与语法高亮。
-
-当前代码块高亮重点做了这些区分：
-
-- 关键词 / 内建函数：紫色系
-- 字符串：绿色系
-- 注释与行号：灰色系
-- 默认代码文本：深色中性文字
-
-这样既不会像 IDE 那样过度鲜艳，也不会因为过于克制而失去可读性。
+- 引用：细边线式，融入正文流
+- 行内代码：轻底色 + 微圆角，连续出现不打断阅读
+- 代码块：独立底色与边框，低彩度语法高亮与主题暖色系统一，不似 IDE 配色跳脱
+- 表格：横线体系，长短内容都不撑破版面
+- 目录：独立边框容器，与引用明确区分
+- 补齐 `mark` 高亮、`kbd` 按键与脚注样式
+- 源码模式配色与代码块逻辑在双主题下完全同构
 
 ### 5. 两套主题同步维护
 
@@ -101,14 +76,7 @@
 - `claudy.css`：浅色
 - `claudy-dark.css`：深色
 
-两套主题不是简单的亮度反转，而是在以下部分分别做了独立调整：
-
-- 背景与文本对比
-- 表格边框强度
-- 代码块背景与高亮色
-- 侧栏 / 菜单 / 编辑界面过渡
-
-两套主题沿用同一套版心、字体与代码高亮逻辑，切换时不会产生阅读断层。
+两套主题按各自底色独立调校对比度、边框强度与高亮色，但版心、字体与组件逻辑完全同构，切换时没有阅读断层。
 
 ## 适用场景
 
@@ -129,12 +97,15 @@
 
 ## 已优化的细节
 
-- 中文正文排版节奏
-- 标题层级清晰度
-- 粗体强调识别度
-- 行内代码胶囊样式
-- 代码块语法高亮
+- 中文正文排版节奏（字号 / 行高 / 段距）
+- 黑体标题的真实字重层级
+- 功能色对比度（WCAG AA）
+- 深色主题亮度与光晕控制
+- 行内代码轻量化样式
+- 代码块低彩度语法高亮
 - 表格边框与间距统一
+- 侧栏可读性与长文件名自动换行
+- 根字号随窗口自适应
 - Typora 编辑界面与导出风格一致性
 
 ## 后续可继续扩展的方向
@@ -163,7 +134,7 @@ Claude 是 Anthropic, PBC 的商标。本项目与 Anthropic 无任何关联，�
 
 # Claudy Theme
 
-A Typora theme inspired by Claude's reading experience, refined for Chinese writing and technical Markdown workflows. It ships in two variants: light and dark.
+A Typora theme inspired by Claude's reading experience, deeply refined for Chinese long-form writing: an LXGW WenKai body with Dream Han Sans headings, warm-paper light and warm-charcoal dark variants, WCAG AA feature colors, and window-adaptive typography. Pure CSS, no build step, both themes maintained in sync.
 
 ## Installation
 
@@ -194,76 +165,46 @@ It is not a direct clone of a webpage. Instead, it keeps the calm, restrained, l
 
 ## Highlights
 
-### 1. A calm Claude-style reading atmosphere
+### 1. A low-fatigue reading palette
 
-The theme uses low-saturation colors, soft contrast, and generous spacing. It works especially well for:
+- Light: warm paper background (`#faf9f5`) with deep warm-gray text — a quiet paper feel
+- Dark: warm-charcoal background (never pure black) with warm-white text (never pure white), held in a low-fatigue brightness range for long dark-mode sessions
+- Every functional color (links, code, tags) is individually verified against WCAG AA (≥ 4.5:1)
 
-- technical notes
-- course summaries
-- paper-reading notes
-- AI conversation archives
-- mixed Chinese-English documents
+Low-saturation warm tones, soft contrast, and generous spacing make it a good home for technical notes, course summaries, paper-reading notes, AI conversation archives, and mixed Chinese-English documents.
 
-Compared with more decorative Typora themes, this one focuses more on stability, readability, and sustained reading.
+### 2. A type system built for Chinese
 
-### 2. Typography optimized for Chinese content
+- Body: LXGW WenKai (霞鹜文楷), a handwriting-flavored kai face made for immersive long-form reading
+- Headings: Dream Han Sans CN (梦源黑体), a Source Han Sans based family with 27 real weights — kai body × sans headings keeps hierarchy obvious, and heading weights always hit real font weights with no synthetic bolding
+- Code: Maple Mono NF CN, a monospace with built-in CJK glyphs and strict 2:1 Latin-CJK alignment
+- Complete fallback chains for Windows / macOS: without the recommended fonts installed, the theme degrades gracefully to system fonts
 
-Instead of copying an English-first web font stack, the theme treats body text, headings, emphasis, and code separately:
+### 3. Window-adaptive typography
 
-- body text is tuned for long-form reading
-- headings and emphasized text use a clearer hierarchy
-- code uses a dedicated monospace stack for alignment and readability
+- The root font size scales smoothly from 16–18px with window width via CSS `clamp()` — one code path from laptops to 4K displays
+- Content width and the sidebar use fully relative units and scale in lockstep
+- Body 17px / line-height 1.75 / paragraph spacing 0.95em, tuned for Chinese long-form rhythm
+- The sidebar has its own size, weight, and line-height tuning, with long file names wrapping automatically
 
-This makes the theme feel more natural in Chinese technical writing.
+### 4. Restrained but complete components
 
-### 3. A unified table system
-
-Tables are one of the easiest places for document styles to break down, so this theme explicitly standardizes:
-
-- hierarchy between headers and body cells
-- border strength
-- cell spacing
-- rhythm in mixed Chinese-English text
-- consistency between light and dark mode
-
-It is suitable for:
-
-- comparison tables
-- parameter sheets
-- experiment summaries
-- concept overview tables
-
-### 4. Code styles designed for everyday technical writing
-
-Code styling is split into two different layers:
-
-- inline code, which works like a lightweight visual tag
-- fenced code blocks, which keep their own background, borders, language label, and syntax highlighting
-
-The current highlighting scheme emphasizes:
-
-- keywords / built-ins: purple
-- strings: green
-- comments and line numbers: gray
-- default code text: neutral dark text
-
-This keeps code readable without becoming as visually aggressive as a full IDE theme.
+- Blockquotes: a slim border-line style that stays inside the text flow
+- Inline code: light background with a small radius, never choppy in runs
+- Code blocks: their own background and border, with low-saturation syntax colors unified with the warm palette (no IDE neon)
+- Tables: a horizontal-rule system that survives short cells and long overflowing strings alike
+- TOC: its own bordered container, clearly distinct from quotes
+- Missing pieces filled in: `mark` highlights, `kbd` keys, and footnotes
+- Source-mode colors mirror the fenced-code logic in both themes
 
 ### 5. Two themes maintained together
 
-The project currently includes:
+The project includes:
 
 - `claudy.css` — light
 - `claudy-dark.css` — dark
 
-The two variants are not mechanical brightness inversions of each other. Each is tuned independently in areas such as:
-
-- background and text contrast
-- table border intensity
-- code block background and syntax colors
-- sidebar and Typora UI transitions
-
-Both themes share the same layout, typography, and syntax-highlight logic, so switching between them never breaks reading rhythm.
+Each variant is tuned independently for its own background — contrast, border strength, and highlight colors — while sharing identical layout, typography, and component logic, so switching between them never breaks reading rhythm.
 
 ## Best Use Cases
 
@@ -284,13 +225,16 @@ If you prefer highly decorative layouts or very dramatic heading styles, this th
 
 ## Refined Details
 
-- Chinese body typography
-- heading hierarchy
-- stronger emphasis styling
-- inline code capsule style
-- fenced code syntax highlighting
+- Chinese body rhythm (size / line height / paragraph spacing)
+- real-weight sans heading hierarchy
+- WCAG AA functional colors
+- dark-theme brightness and halation control
+- lightweight inline code styling
+- low-saturation syntax highlighting
 - unified table rhythm and borders
-- better consistency between Typora editing and export
+- sidebar readability with automatic file-name wrapping
+- root font size adapting to window width
+- consistency between Typora editing and export
 
 ## Possible Future Extensions
 
